@@ -63,7 +63,7 @@ class SocialHandleView extends StatelessWidget {
                     Platform.operatingSystemVersion,
                   ),
                 );
-                await launch('$mailtoLink');
+                await launchUrl(Uri.parse('$mailtoLink'));
               },
             ),
           ],
